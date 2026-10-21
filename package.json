@@ -1,0 +1,36 @@
+{
+  "name": "payload-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Payload v3 + Next.js site mirroring the ungieiendom.no structure (Pages/Posts/Events/Media/Categories/Forms + Header/Footer globals + association blocks)",
+  "scripts": {
+    "dev": "next dev --turbo -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "seed": "tsx src/seed.ts"
+  },
+  "dependencies": {
+    "@img/sharp-win32-x64": "^0.33.5",
+    "@payloadcms/db-sqlite": "3.38.0",
+    "@payloadcms/next": "3.38.0",
+    "@payloadcms/richtext-lexical": "3.38.0",
+    "@payloadcms/ui": "3.38.0",
+    "better-sqlite3": "^11.0.0",
+    "graphql": "^16.8.1",
+    "next": "^15.2.3",
+    "payload": "3.38.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "sharp": "^0.33.5",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
